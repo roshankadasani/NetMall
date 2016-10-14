@@ -11,8 +11,8 @@ public class DbConnection {
 	
 	static String driver="com.ibm.db2.jcc.DB2Driver";
 	static String url="jdbc:db2://localhost:50000/MAIN";
-	static String username="rosha";
-	static String password="Savio1993";
+	static String username="";
+	static String password="";
 	static Connection con=null;
 	static PreparedStatement ps=null;
 	public static ResultSet rs=null;
